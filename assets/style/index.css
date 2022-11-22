@@ -1,0 +1,46 @@
+@import "./reset.css";
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+h1 {
+    font-size: 40px;
+    margin: auto;
+
+}
+
+input {
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    height: 30px;
+    background-color: #999797;
+    color: #fff;
+    font-size: 15px;
+}
+
+button {
+    border-radius: 20px;
+    height: 30px;
+    padding: 5px;
+    background-color: #ffae00;
+    color:#fff;
+    font-size: 15px;
+}
+
+.grid {
+    margin-top: 10px;
+    background-color: #747272;
+    height: 400px;
+    width: 600px;
+}
